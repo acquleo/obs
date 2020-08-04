@@ -1,0 +1,8 @@
+.css-grid-container-common-styles {
+    display: grid;
+    grid-template-columns: 1fr;
+    /*one column for nav*/
+    grid-template-rows: auto 1fr;
+  }
+
+  

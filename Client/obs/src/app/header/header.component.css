@@ -1,0 +1,6 @@
+.header-grid-container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 5vw 90vw 5vw;
+  }

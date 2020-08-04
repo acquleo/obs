@@ -1,0 +1,16 @@
+<div class="main-grid-container" style="overflow: hidden;" >
+    <div style="grid-row:1; height: 100%; width: 100%; ">
+        <app-header></app-header>
+    </div>    
+    <div style="grid-row:2; height: 100%; width: 100%; position: relative;"  [@fadeAnimation]="getRouterOutletState(o)">
+        <router-outlet #o="outlet"></router-outlet>
+    </div>
+    <div style="grid-row:3; height: 100%; width: 100%; ">
+        <app-footer></app-footer>
+    </div>
+
+
+    <!--<div class="p-col-fixed" style="width:100px"><p-button label="Click" ></p-button></div>
+    <div class="p-col" >OBS</div>
+    <div class="p-col-fixed" style="width:100px">LOGOUT</div>-->
+</div>
