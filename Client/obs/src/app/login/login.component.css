@@ -23,6 +23,8 @@
     height: 100%;
     margin:  auto;
     transition:all 100ms linear;
+    backdrop-filter: blur(5px);
+    opacity: 0.8;    
   }
 
   .keyboard-button:hover {
